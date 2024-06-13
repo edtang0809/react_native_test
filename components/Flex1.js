@@ -12,7 +12,7 @@ export default function Flex1() {
     }
 
     const changeCount = () =>{
-        setCount(count+1)
+        setCount(count => count + 1)
         console.log('按到changeCount按鈕了')
     }
 
